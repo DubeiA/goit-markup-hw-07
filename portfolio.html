@@ -20,29 +20,35 @@
 	<body class="Page">
 		<!--header-->
 		<header class="header-line">
-			<div class="header container">
-				<nav class="header-nav">
-					<a class="link-decor logo-decor" href="./index.html"> <span class="logo">Web</span>Studio </a>
+			<div class="header header--container">
+				<nav class="header__nav">
+					<a class="header__logo link-decor" href="./index.html"> <span class="logo">Web</span>Studio </a>
 
 					<ul class="nav list">
-						<li class="list-link"><a href="./index.html" class="link link-decor">Студія</a></li>
-						<li class="list-link"><a href="./portfolio.html" class="link link-decor link-active">Портфоліо</a></li>
-						<li class="list-link"><a href="#" class="link link-decor">Контакти</a></li>
+						<li class="nav__item"> 
+							<a class="nav__link link-decor" href="./index.html">Студія</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link link-decor link-active" href="./portfolio.html">Портфоліо</a>
+						</li>
+						<li class="nav__item"> 
+							<a class="nav__link link-decor" href="#footer">Контакти</a>
+						</li>
 					</ul>
 				</nav>
 
 				<ul class="main-contacts list">
-					<li class="decor-contacts">
-						<a class="contacts link-decor" href="mailto:info@devstudio.com">
-							<svg class="icon-mail">
+					<li class="main-contacts__item">
+						<a class="main-contacts__link link-decor" href="mailto:info@devstudio.com">
+							<svg class="main-contacts__icon-mail">
 								<use href="./images/icons.svg#icon-envelope"></use>
 							</svg>
 							info@devstudio.com
 						</a>
 					</li>
-					<li class="decor-contacts">
-						<a class="contacts link-decor" href="tel:+380961111111">
-							<svg class="icon-phone">
+					<li class="main-contacts__item">
+						<a class="main-contacts__link link-decor" href="tel:+380961111111">
+							<svg class="main-contacts__icon-phone">
 								<use href="./images/icons.svg#icon-smartphone"></use>
 							</svg>
 							+38 096 111 11 11
@@ -54,159 +60,159 @@
 		<!-- Main content -->
 		<main>
 			<!-- навігатор по сайту -->
-			<section class="section">
-				<div class="container second-navigation group-proposition">
-					<h1 class="portolio-hero visually-hidden">Наші пропозиції</h1>
-					<ul class="second-nav list">
-						<li class="portfolio-btn"><button type="button" class="second-btn">Всі</button></li>
-						<li class="portfolio-btn"><button type="button" class="second-btn">Веб-сайти</button></li>
-						<li class="portfolio-btn"><button type="button" class="second-btn">Додатки</button></li>
-						<li class="portfolio-btn"><button type="button" class="second-btn">Дизайн</button></li>
-						<li class="portfolio-btn"><button type="button" class="second-btn">Маркетинг</button></li>
+			<section class="portfolio-nav">
+				<div class="portfolio-nav--container">
+					<h1 class="visually-hidden">Наші пропозиції</h1>
+					<ul class="portfolio-nav__list list">
+						<li class="portfolio-nav__item"><button type="button" class="portfolio-nav__btn">Всі</button></li>
+						<li class="portfolio-nav__item"><button type="button" class="portfolio-nav__btn">Веб-сайти</button></li>
+						<li class="portfolio-nav__item"><button type="button" class="portfolio-nav__btn">Додатки</button></li>
+						<li class="portfolio-nav__item"><button type="button" class="portfolio-nav__btn">Дизайн</button></li>
+						<li class="portfolio-nav__item"><button type="button" class="portfolio-nav__btn">Маркетинг</button></li>
 					</ul>
 
 					<!-- пропозиції -->
 					<ul class="proposition list">
-						<li class="proposition-decor">
-							<a class="portfolio-list hidden-list" href="">
-								<div class="thumb-proposition">
+						<li class="proposition__item">
+							<a class="proposition__link" href="">
+								<div class="proposition__hidden-text">
 									<img src="images/img.jpg" alt="laptop" width="370" />
-									<p class="text-proposition">
+									<p class="proposition__visible-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
 										відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
 									</p>
 								</div>
-								<div class="decor-text">
-									<h2 class="portfolio-title">Технокряк</h2>
-									<p class="content second-content">Веб-сайт</p>
+								<div class="proposition__decor-text">
+									<h2 class="proposition__title">Технокряк</h2>
+									<p class="proposition__content">Веб-сайт</p>
 								</div>
 							</a>
 						</li>
 
-						<li class="proposition-decor">
-							<a class="portfolio-list hidden-list" href="">
-								<div class="thumb-proposition">
+						<li class="proposition__item">
+							<a class="proposition__link " href="">
+								<div class="proposition__hidden-text">
 									<img src="images/img1.jpg" alt="basketball" width="370" />
-									<p class="text-proposition">
+									<p class="proposition__visible-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
 										відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
 									</p>
 								</div>
-								<div class="decor-text">
-									<h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
-									<p class="content second-content">Дизайн</p>
+								<div class="proposition__decor-text">
+									<h2 class="proposition__title">Постер New Orlean vs Golden Star</h2>
+									<p class="proposition__content">Дизайн</p>
 								</div>
 							</a>
 						</li>
 
-						<li class="proposition-decor">
-							<a class="portfolio-list hidden-list" href="">
-								<div class="thumb-proposition">
+						<li class="proposition__item">
+							<a class="proposition__link" href="">
+								<div class="proposition__hidden-text">
 									<img src="images/img2.jpg" alt=" logo Seafood restaurant" width="370" />
-									<p class="text-proposition">
+									<p class="proposition__visible-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
 										відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
 									</p>
 								</div>
-								<div class="decor-text">
-									<h2 class="portfolio-title">Ресторан Seafood</h2>
-									<p class="content second-content">Додаток</p>
+								<div class="proposition__decor-text">
+									<h2 class="proposition__title">Ресторан Seafood</h2>
+									<p class="proposition__content">Додаток</p>
 								</div>
 							</a>
 						</li>
 
-						<li class="proposition-decor">
-							<a class="portfolio-list hidden-list" href="">
-								<div class="thumb-proposition">
+						<li class="proposition__item">
+							<a class="proposition__link" href="">
+								<div class="proposition__hidden-text">
 									<img src="images/img3.jpg" alt="headphone" width="370" />
-									<p class="text-proposition">
+									<p class="proposition__visible-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
 										відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
 									</p>
 								</div>
-								<div class="decor-text">
-									<h2 class="portfolio-title">Проект Prime</h2>
-									<p class="content second-content">Маркетинг</p>
+								<div class="proposition__decor-text">
+									<h2 class="proposition__title">Проект Prime</h2>
+									<p class="proposition__content">Маркетинг</p>
 								</div>
 							</a>
 						</li>
 
-						<li class="proposition-decor">
-							<a class="portfolio-list hidden-list" href="">
-								<div class="thumb-proposition">
+						<li class="proposition__item">
+							<a class="proposition__link" href="">
+								<div class="proposition__hidden-text">
 									<img src="images/img4.jpg" alt="two small boxes" width="370" />
-									<p class="text-proposition">
+									<p class="proposition__visible-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
 										відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
 									</p>
 								</div>
-								<div class="decor-text">
-									<h2 class="portfolio-title">Проект Boxes</h2>
-									<p class="content second-content">Додаток</p>
+								<div class="proposition__decor-text">
+									<h2 class="proposition__title">Проект Boxes</h2>
+									<p class="proposition__content">Додаток</p>
 								</div>
 							</a>
 						</li>
 
-						<li class="proposition-decor">
-							<a class="portfolio-list hidden-list" href="">
-								<div class="thumb-proposition">
+						<li class="proposition__item">
+							<a class="proposition__link" href="">
+								<div class="proposition__hidden-text">
 									<img src="images/img5.jpg" alt="monitor" width="370" />
-									<p class="text-proposition">
+									<p class="proposition__visible-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
 										відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
 									</p>
 								</div>
-								<div class="decor-text">
-									<h2 class="portfolio-title">Inspiration has no Borders</h2>
-									<p class="content second-content">Веб-сайт</p>
+								<div class="proposition__decor-text">
+									<h2 class="proposition__title">Inspiration has no Borders</h2>
+									<p class="proposition__content">Веб-сайт</p>
 								</div>
 							</a>
 						</li>
 
-						<li class="proposition-decor">
-							<a class="portfolio-list hidden-list" href="">
-								<div class="thumb-proposition">
+						<li class="proposition__item">
+							<a class="proposition__link" href="">
+								<div class="proposition__hidden-text">
 									<img src="images/img6.jpg" alt="a book" width="370" />
-									<p class="text-proposition">
+									<p class="proposition__visible-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
 										відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
 									</p>
 								</div>
-								<div class="decor-text">
-									<h2 class="portfolio-title">Видання Limited Edition</h2>
-									<p class="content second-content">Дизайн</p>
+								<div class="proposition__decor-text">
+									<h2 class="proposition__title">Видання Limited Edition</h2>
+									<p class="proposition__content">Дизайн</p>
 								</div>
 							</a>
 						</li>
 
-						<li class="proposition-decor">
-							<a class="portfolio-list hidden-list" href="">
-								<div class="thumb-proposition">
+						<li class="proposition__item">
+							<a class="proposition__link" href="">
+								<div class="proposition__hidden-text">
 									<img src="images/img7.jpg" alt="some label" width="370" />
-									<p class="text-proposition">
+									<p class="proposition__visible-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
 										відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
 									</p>
 								</div>
-								<div class="decor-text">
-									<h2 class="portfolio-title">Проект LAB</h2>
-									<p class="content second-content">Маркетинг</p>
+								<div class="proposition__decor-text">
+									<h2 class="proposition__title">Проект LAB</h2>
+									<p class="proposition__content">Маркетинг</p>
 								</div>
 							</a>
 						</li>
 
-						<li class="proposition-decor">
-							<a class="portfolio-list hidden-list" href="">
-								<div class="thumb-proposition">
+						<li class="proposition__item">
+							<a class="proposition__link" href="">
+								<div class="proposition__hidden-text">
 									<img src="images/img8.jpg" alt="some one work at laptop" width="370" />
-									<p class="text-proposition">
+									<p class="proposition__visible-text">
 										Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
 										відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
 									</p>
 								</div>
-								<div class="decor-text">
-									<h2 class="portfolio-title">Growing Business</h2>
-									<p class="content second-content">Додаток</p>
+								<div class="proposition__decor-text">
+									<h2 class="proposition__title">Growing Business</h2>
+									<p class="proposition__content">Додаток</p>
 								</div>
 							</a>
 						</li>
@@ -215,18 +221,18 @@
 			</section>
 		</main>
 		<!-- footer -->
-		<footer class="address">
-			<div class="container footer-flex">
+		<footer id="footer" class="footer">
+			<div class="footer__group footer--container">
 				<div>
-					<a class="link-decor decor-address" href="./index.html">
-						<span class="logo">Web</span><span class="logo-three">Studio</span>
+					<a class="footer__link link-decor" href="./index.html">
+						<span class="logo">Web</span><span class="footer__logo--white">Studio</span>
 					</a>
 
-					<address class="adress">
-						<ul class="adress-nav list">
-							<li class="addres-item">
+					<address class="address">
+						<ul class="list">
+							<li class="address__item">
 								<a
-									class="location link-decor"
+									class="address__location link-decor"
 									href="https://goo.gl/maps/icbzuspawYWSh7ycA"
 									target="_blank"
 									rel="noreferrer noopener nofollow"
@@ -234,62 +240,62 @@
 									м.Київ, бульвар Лесі Українки, 26
 								</a>
 							</li>
-							<li class="addres-item">
-								<a class="contact link-decor contact-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+							<li class="address__item">
+								<a class="address__contact link-decor" href="mailto:info@devstudio.com">info@devstudio.com</a>
 							</li>
-							<li class="addres-item">
-								<a class="contact link-decor contact-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+							<li class="address__item">
+								<a class="address__contact link-decor" href="tel:+380961111111">+38 096 111 11 11</a>
 							</li>
 						</ul>
 					</address>
 				</div>
-				<div class="social">
-					<p class="fotter-header">Приєднуйся</p>
-					<ul class="list icon-footer">
-						<li class="white-icon-footer">
-							<a class="footer-social-icon link-decor link-icon-footer" href="">
-								<svg class="icon-team-decor instagram">
+				<div class="join">
+					<p class="join__title">Приєднуйся</p>
+					<ul class="join__list list">
+						<li class="join__item">
+							<a class="join__link link-decor" href="">
+								<svg class="join__icon">
 									<use href="./images/icons.svg#icon-instagram"></use>
 								</svg>
 							</a>
 						</li>
-						<li class="white-icon-footer">
-							<a class="footer-social-icon link-decor link-icon-footer" href="">
-								<svg class="icon-team-decor twitter">
+						<li class="join__item">
+							<a class="join__link link-decor" href="">
+								<svg class="join__icon">
 									<use href="./images/icons.svg#icon-twitter"></use>
 								</svg>
 							</a>
 						</li>
-						<li class="white-icon-footer">
-							<a class="footer-social-icon link-decor link-icon-footer" href="">
-								<svg class="icon-team-decor facebook">
+						<li class="join__item">
+							<a class="join__link link-decor" href="">
+								<svg class="join__icon">
 									<use href="./images/icons.svg#icon-facebook"></use>
 								</svg>
 							</a>
 						</li>
-						<li class="white-icon-footer">
-							<a class="footer-social-icon link-decor link-icon-footer" href="">
-								<svg class="icon-team-decor linkedin">
+						<li class="join__item">
+							<a class="join__link link-decor" href="">
+								<svg class="join__icon">
 									<use href="./images/icons.svg#icon-linkedin"></use>
 								</svg>
 							</a>
 						</li>
 					</ul>
 				</div>
-				<div class="form-footer">
-					<p class="fotter-header">Підпишіться на розсилку</p>
+				<div class="subscription">
+					<p class="subscription__title">Підпишіться на розсилку</p>
+					<form>
+						<label>
+							<input class="subscription__input" type="text" name="sing-up" placeholder="E-mail" required />
+						</label>
 
-					<label class="label-footer">
-							<input class="input-footer" type="text" name="text" placeholder="E-mail"/>
-					</label>
-
-					<button class="btn-footer" type="submit">
-						Відправити
-						<svg class="icon-btn-footer">
-							<use href="./images/icons.svg#icon-send"></use>
-						</svg>
-					</button>
-					
+						<button class="subscription__btn" type="submit">
+							Підписатись
+							<svg class="subscription__icon">
+								<use href="./images/icons.svg#icon-send"></use>
+							</svg>
+						</button>
+					</form>
 				</div>
 			</div>
 		</footer>
