@@ -1,10 +1,10 @@
-.features {
-    @extend %section;
-    @extend %container;
-}
+// .features {
+//     @extend %section;
+//     @extend %container;
+// }
 
 .features__list {
-    @extend %list;
+    // @extend %list;
     display: flex;
 
 }

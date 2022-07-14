@@ -1,5 +1,5 @@
 .nav {
-    @extend %list;
+    // @extend %list;
 
     display: flex;
     margin-top: 32px;
@@ -13,7 +13,7 @@
 }
 
 .nav__link {
-    @extend %link-decor;
+    // @extend %link-decor;
 
     padding-top: 32px;
     padding-bottom: 32px;

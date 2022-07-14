@@ -61,7 +61,7 @@ p {
 }
 
 /* ---------------------------Списки----------------- */
-%list {
+.list {
     list-style: none;
     margin: 0;
     padding-left: 0;
@@ -78,7 +78,7 @@ img {
 /* ------------------------Containers ------------------*/
 
 
-%container {
+.container {
     width: 1200px;
     padding: 0px 15px;
     margin: 0 auto;
@@ -87,14 +87,14 @@ img {
 
 /*--------------- section ----------------------*/
 
-%section {
+.section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
 /* -------------------------LINKS decor------------------*/
 
-%link-decor {
+.link-decor {
     text-decoration: none;
 
 }

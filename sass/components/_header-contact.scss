@@ -1,5 +1,5 @@
 .contacts {
-    @extend %list;
+    // @extend %list;
 
     display: flex;
     margin-left: auto;
@@ -17,7 +17,7 @@
 }
 
 .contacts__link {
-    @extend %link-decor;
+    // @extend %link-decor;
 
     display: flex;
     align-items: center;
