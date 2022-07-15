@@ -90,7 +90,7 @@ img {
           align-items: center;
 }
 
-.header__logo {
+.logo {
   -ms-flex-item-align: center;
       align-self: center;
   color: #212121;
@@ -98,10 +98,12 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  margin-right: 93px;
-}
-.header__logo .logo {
   color: #2196f3;
+}
+
+.logo-dark {
+  color: #212121;
+  margin-right: 93px;
 }
 
 .nav {
@@ -730,10 +732,6 @@ img {
 .footer {
   padding: 60px 0;
   background-color: #2f303a;
-}
-
-.logo {
-  color: #2196f3;
 }
 
 .footer__group {

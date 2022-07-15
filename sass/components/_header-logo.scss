@@ -1,4 +1,4 @@
-.header__logo {
+.logo {
     
     align-self: center;
 
@@ -8,12 +8,13 @@
     font-weight: $font-bolt;
     font-size: 26px;
     line-height: 1.19;
-
-    margin-right: 93px;
-
-    .logo {
-            color: $hover-color;
     
-    }
+    color: $hover-color;
+ 
+    
 }
 
+.logo-dark {
+    color: $main-color;
+    margin-right: 93px;
+}
