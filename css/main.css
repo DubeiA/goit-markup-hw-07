@@ -103,6 +103,9 @@ img {
 
 .logo-dark {
   color: #212121;
+}
+
+.logo-decor {
   margin-right: 93px;
 }
 
@@ -744,7 +747,7 @@ img {
 }
 
 .footer__link {
-  display: block;
+  display: inline-block;
   margin-bottom: 20px;
   font-family: "Raleway";
   font-style: normal;
