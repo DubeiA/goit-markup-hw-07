@@ -20,6 +20,9 @@ $backdrop-bg :rgba(0, 0, 0, 0.2);
 $font-bolt:700;
 
 
+// card set 
+
+$item:4;
 
 
 body {
@@ -107,3 +110,16 @@ img {
 
     margin-bottom: 50px;
 }
+
+// .card-set {
+//     display: flex;
+//     flex-wrap: wrap;
+//     margin: -15px;
+// }
+
+// .card-set-item {
+
+//     flex-basis: calc(100% - 15px *$item) / $item;
+//     margin: 15px;
+
+// }

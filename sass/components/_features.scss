@@ -1,17 +1,17 @@
-// .features {
-//     @extend %section;
-//     @extend %container;
-// }
+
 
 .features__list {
-    // @extend %list;
     display: flex;
+    // flex-wrap: wrap;
+    // margin: -15px;
 
 }
 
 .features__item {
     width: 270px;
-    grid: 30px;
+
+    // flex-basis: calc(100% - 15px *3) / 4;
+    // margin: 15px;
 }
 
 .features__item+.features__item {

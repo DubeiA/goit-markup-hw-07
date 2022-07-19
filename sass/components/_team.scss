@@ -2,6 +2,8 @@
     // @extend %section;
     // @extend %container;
     background-color: $secondary-section-color;
+
+    $item: 5;
 }
 .team__list {
     display: flex;

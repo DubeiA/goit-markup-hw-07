@@ -537,7 +537,6 @@ img {
 
 .features__item {
   width: 270px;
-  grid: 30px;
 }
 
 .features__item + .features__item {
